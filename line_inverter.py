@@ -30,7 +30,7 @@ def line_inverter(import_file_name, export_file_name, prefix_string):
     
     
     # loops through line_list to modify individual indices
-    for i in line_list:
+    for line in line_list:
         
         # strips the "\n" from the string
         line = i.strip("\n")
