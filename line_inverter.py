@@ -33,7 +33,7 @@ def line_inverter(import_file_name, export_file_name, prefix_string):
     for line in line_list:
         
         # strips the "\n" from the string
-        line = i.strip("\n")
+        line = line.strip("\n")
         
         # concatenates prefix_string and a character from the line_list
         x = prefix_string + line
